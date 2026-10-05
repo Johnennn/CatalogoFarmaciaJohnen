@@ -39,3 +39,11 @@ justificación: se usó para destacar visualmente los que no tienen receta.
 
 user: Johnen
 CONTRASEÑA Contraseña123!
+
+## py -m pip install django sino con python -m pip install django
+# python.exe -m pip install --upgrade pip
+# python manage.py runserver
+# py manage.py makemigrations
+# py manage.py migrate
+# python manage.py loaddata serviciosApp/datos.json
+# python manage.py createsuperuser
