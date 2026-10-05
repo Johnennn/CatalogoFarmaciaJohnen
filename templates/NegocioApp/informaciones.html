@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Farmacia Johnen | Nosotros</title>
+        <link rel="stylesheet" href="{% static 'css/negocio.css' %}">
+         </head>
+    <body>
+        <div class="container">
+            <div class="topbar">
+                <strong>Farmacia Johnen</strong>
+                <a href="/">Volver al inicio</a>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h1>¿Quiénes somos?</h1>
+                    <p>Somos una empresa dedicada a la venta de productos farmacéuticos, con el objetivo de brindar a nuestros clientes calidad, confianza y atención experta en cada compra.</p>
+                </div>
+
+                <div class="card">
+                    <h2>Servicio al cliente</h2>
+                    <p>En Farmacia Johnen, valoramos la satisfacción de cada paciente y cliente. Nuestro equipo está preparado para resolver dudas, orientar en cada compra y ofrecer un servicio cercano y eficiente.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Contáctanos</h3>
+                    <p>Si deseas comunicarte con nosotros, puedes escribirnos a <strong>info@farmaciacom</strong> para recibir atención personalizada.</p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="{% static 'images/estatica/negocio1.webp' %}" alt="Productos farmacéuticos">
+                <img src="{% static 'images/estatica/negocio2.jpg' %}" alt="Farmacia Johnen">
+                <img src="{% static 'images/estatica/negocio3.png' %}" alt="Sistema farmacéutico">
+            </div>
+        </div>
+    </body>
+    </html>

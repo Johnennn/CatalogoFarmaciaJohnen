@@ -1,0 +1,22 @@
+[
+    {"model": "CategoriasApp.volumen", "pk": 1, "fields": {"nombre": "Paracetamol 500 mg", "marca": "Genfar", "disponible": "Disponible", "categoria": "Analgesicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 2, "fields": {"nombre": "Ibuprofeno 400 mg", "marca": "MK", "disponible": "Disponible", "categoria": "Analgesicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 3, "fields": {"nombre": "Amoxicilina 500 mg", "marca": "Sandoz", "disponible": "Disponible", "categoria": "Antibioticos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 4, "fields": {"nombre": "Loratadina 10 mg", "marca": "Bayer", "disponible": "Disponible", "categoria": "Antihistaminicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 5, "fields": {"nombre": "Omeprazol 20 mg", "marca": "Genomma Lab", "disponible": "Disponible", "categoria": "Antiulcerosos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 6, "fields": {"nombre": "Metformina 500 mg", "marca": "Sandoz", "disponible": "Disponible", "categoria": "Antidiabeticos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 7, "fields": {"nombre": "Simvastatina 20 mg", "marca": "MK", "disponible": "Disponible", "categoria": "Hipolipemiantes", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 8, "fields": {"nombre": "Aspirina 100 mg", "marca": "Bayer", "disponible": "Disponible", "categoria": "Anticoagulantes", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 9, "fields": {"nombre": "Clorfenamina 4 mg", "marca": "Genfar", "disponible": "Disponible", "categoria": "Antihistaminicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 10, "fields": {"nombre": "Diclofenaco 50 mg", "marca": "Sandoz", "disponible": "Disponible", "categoria": "Analgesicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 11, "fields": {"nombre": "Claritromicina 500 mg", "marca": "MK", "disponible": "Disponible", "categoria": "Antibioticos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 12, "fields": {"nombre": "Cetirizina 10 mg", "marca": "Bayer", "disponible": "Disponible", "categoria": "Antihistaminicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 13, "fields": {"nombre": "Ranitidina 150 mg", "marca": "Genomma Lab", "disponible": "Disponible", "categoria": "Antiulcerosos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 14, "fields": {"nombre": "Glimepirida 2 mg", "marca": "Sandoz", "disponible": "Disponible", "categoria": "Antidiabeticos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 15, "fields": {"nombre": "Atorvastatina 10 mg", "marca": "MK", "disponible": "Disponible", "categoria": "Hipolipemiantes", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 16, "fields": {"nombre": "Warfarina 5 mg", "marca": "Sandoz", "disponible": "Disponible", "categoria": "Anticoagulantes", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 17, "fields": {"nombre": "Loratadina 10 mg", "marca": "Genfar", "disponible": "Disponible", "categoria": "Antihistaminicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 18, "fields": {"nombre": "Ibuprofeno 400 mg", "marca": "Sandoz", "disponible": "Disponible", "categoria": "Analgesicos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 19, "fields": {"nombre": "Amoxicilina 500 mg", "marca": "MK", "disponible": "Disponible", "categoria": "Antibioticos", "stock": 100}},
+    {"model": "CategoriasApp.volumen", "pk": 20, "fields": {"nombre": "Omeprazol 20 mg", "marca": "Bayer", "disponible": "Disponible", "categoria": "Antiulcerosos", "stock": 100}}
+]

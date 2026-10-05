@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen Farmacia Johnen</title>
+    <link rel="stylesheet" href="{% static 'css/resumen.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Resumen de Productos</h1>
+            <div class="stat-grid">
+                <div class="stat">
+                    <strong>{{ total }}</strong>
+                    <span>Total de productos</span>
+                </div>
+                <div class="stat">
+                    <strong>{{ disponibles }}</strong>
+                    <span>Productos disponibles</span>
+                </div>
+                <div class="stat alerta">
+                    <strong>{{ sin_stock }}</strong>
+                    <span>Productos sin stock</span>
+                </div>
+            </div>
+            <a class="back-link" href="/">Volver a la página principal</a>
+        </div>
+    </div>
+</body>
+</html>
