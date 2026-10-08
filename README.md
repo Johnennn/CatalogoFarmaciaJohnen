@@ -81,3 +81,28 @@ def resumen(request):
     disponibles = Volumen.objects.filter(stock__gt=0).count()
     sin_stock = Volumen.objects.filter(stock=0).count()
     return render(request, 'CategoriasApp/resumen.html', {'total': total, 'disponibles': disponibles, 'sin_stock': sin_stock})
+
+
+Model
+from django.db import models
+
+# Create your models here.
+class Volumen(models.Model):
+    id= models.PositiveSmallIntegerField(primary_key=True)
+    nombre = models.CharField(max_length=50)
+    marca= models.CharField(max_length=50)
+    disponible=models.CharField(max_length=20)
+    categoria= models.CharField(max_length=50)
+    stock=models.PositiveIntegerField(default=0)
+
+    def __str__(self):
+        return self.nombre
+
+class Precios(models.Model):
+    volumen = models.OneToOneField(Volumen, on_delete=models.CASCADE)
+    precio = models.DecimalField(max_digits=10, decimal_places=0)
+    moneda = models.CharField(max_length=10, default='CLP')
+    observacion= models.CharField(max_length=100, blank=True)
+
+    def __str__(self):
+        return f"{self.volumen.nombre} - {self.precio}"
